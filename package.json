@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "dev": "concurrently --names 'POS' --prefix-colors 'orange,green' --kill-others 'cd frontend/ && bun dev' 'php artisan serve'"
+        "dev": "concurrently --names 'POS' --prefix-colors 'orange,green' --kill-others 'cd frontend/ && bun dev --host' 'php artisan serve'"
     },
     "devDependencies": {
         "@nuxtjs/color-mode": "^3.4.1"
